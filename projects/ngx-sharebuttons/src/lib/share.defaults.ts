@@ -203,12 +203,12 @@ export const whatsappParams: IShareButton = {
   icon: ['fab', 'whatsapp'],
   color: '#25D366',
   share: {
-    desktop: 'https://api.whatsapp.com/send',
+    desktop: 'whatsapp://send',
     android: 'whatsapp://send',
-    ios: 'https://api.whatsapp.com/send'
+    ios: 'whatsapp://send'
   },
   params: {
-    url: 'link',
+    url: 'text',
     description: 'text'
   },
   paramsFunc: linkInDescription
